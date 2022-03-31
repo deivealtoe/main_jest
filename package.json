@@ -1,10 +1,14 @@
 {
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.17.3"
+  },
   "devDependencies": {
+    "axios": "^0.26.1",
     "jest": "^27.5.1"
   },
   "scripts": {
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "start-api": "node ./src/api_server/index.js"
   },
   "type": "module"
 }
